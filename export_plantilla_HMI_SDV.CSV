@@ -1,0 +1,14 @@
+﻿;Tag Type, Tag Name, Tag Description, Read Only, Data Source, Security Code, Alarmed, Native Type, Value Type, Min Analog, Max Analog, Initial Analog, Scale, Offset, DeadBand, Units, Off Label Digital, On Label Digital, Initial Digital, Length String, Initial String, Retentive, A@ress, System Source Name, System Source Index, RIO A@ress, Element Size Block, Number Elements Block, Initial Block
+;###002 - THIS LINE CONTAINS VERSION INFORMATION. DO NOT REMOVE!!!
+
+;Folders Section (Must define folders before tags)
+
+;Tag Section
+"D","@_SD",,"F","D","*","F",,,,,,,,,,"0","1","0",,,,"[PLC]@.SD"
+"D","@_BP",,"F","D","*","F",,,,,,,,,,"0","1","0",,,,"[PLC]@.BP"
+"D","@_OPEN",,"F","D","*","F",,,,,,,,,,"0","1","0",,,,"[PLC]@.OPEN"
+"D","@_CLOSE",,"F","D","*","F",,,,,,,,,,"0","1","0",,,,"[PLC]@.CLOSE"
+"D","@_AUTO_RST",,"F","D","*","F",,,,,,,,,,"0","1","0",,,,"[PLC]@.AUTO_RST"
+"D","@_ZIC",,"F","D","*","F",,,,,,,,,,"0","1","0",,,,"[PLC]@.ZIC"
+"D","@_ZIO",,"F","D","*","F",,,,,,,,,,"0","1","0",,,,"[PLC]@.ZIO"
+"D","@_MA",,"F","D","*","F",,,,,,,,,,"0","1","0",,,,"[PLC]@.MA"

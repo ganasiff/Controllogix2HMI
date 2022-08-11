@@ -1,0 +1,19 @@
+﻿;Tag Type, Tag Name, Tag Description, Read Only, Data Source, Security Code, Alarmed, Native Type, Value Type, Min Analog, Max Analog, Initial Analog, Scale, Offset, DeadBand, Units, Off Label Digital, On Label Digital, Initial Digital, Length String, Initial String, Retentive, A@ress, System Source Name, System Source Index, RIO A@ress, Element Size Block, Number Elements Block, Initial Block
+;###002 - THIS LINE CONTAINS VERSION INFORMATION. DO NOT REMOVE!!!
+
+;Folders Section (Must define folders before tags)
+
+;Tag Section
+"D","@_BP",,"F","D","*","F",,,,,,,,,,"0","1","0",,,,"[PLC]@.BP"
+"A","@_EU",,"F","D","*","F","D","L",0,1000,0,1,0,0,,,,,,,,"[PLC]@.EU"
+"A","@_EU_MAX",,"F","D","*","F","D","L",0,1000,0,1,0,0,,,,,,,,"[PLC]@.EU_MAX"
+"A","@_EU_MIN",,"F","D","*","F","D","L",0,1000,0,1,0,0,,,,,,,,"[PLC]@.EU_MIN"
+"A","@_SP_H",,"F","D","*","F","D","L",0,1000,0,1,0,0,,,,,,,,"[PLC]@.SP_H"
+"A","@_SP_HH",,"F","D","*","F","D","L",0,1000,0,1,0,0,,,,,,,,"[PLC]@.SP_HH"
+"A","@_SP_L",,"F","D","*","F","D","L",0,1000,0,1,0,0,,,,,,,,"[PLC]@.SP_L"
+"A","@_SP_LL",,"F","D","*","F","D","L",0,1000,0,1,0,0,,,,,,,,"[PLC]@.SP_LL"
+"A","@_TRIP_H",,"F","D","*","F","D","L",0,1000,0,1,0,0,,,,,,,,"[PLC]@.TRIP_H"
+"A","@_TRIP_HH",,"F","D","*","F","D","L",0,1000,0,1,0,0,,,,,,,,"[PLC]@.TRIP_HH"
+"A","@_TRIP_L",,"F","D","*","F","D","L",0,1000,0,1,0,0,,,,,,,,"[PLC]@.TRIP_L"
+"A","@_TRIP_LL",,"F","D","*","F","D","L",0,1000,0,1,0,0,,,,,,,,"[PLC]@.TRIP_LL"
+"D","@_XMTR_FAULT",,"F","D","*","F",,,,,,,,,,"0","1","0",,,,"[PLC]@.XMTR_FAULT"

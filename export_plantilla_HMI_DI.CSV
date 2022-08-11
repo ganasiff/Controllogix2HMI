@@ -1,0 +1,11 @@
+﻿;Tag Type, Tag Name, Tag Description, Read Only, Data Source, Security Code, Alarmed, Native Type, Value Type, Min Analog, Max Analog, Initial Analog, Scale, Offset, DeadBand, Units, Off Label Digital, On Label Digital, Initial Digital, Length String, Initial String, Retentive, A@ress, System Source Name, System Source Index, RIO A@ress, Element Size Block, Number Elements Block, Initial Block
+;###002 - THIS LINE CONTAINS VERSION INFORMATION. DO NOT REMOVE!!!
+
+;Folders Section (Must define folders before tags)
+
+;Tag Section
+"D","@_SIG_IN",,"F","D","*","F",,,,,,,,,,"0","1","0",,,,"[PLC]@.SIG_IN"
+"D","@_BP",,"F","D","*","F",,,,,,,,,,"0","1","0",,,,"[PLC]@.BP"
+"D","@_TRIP",,"F","D","*","F",,,,,,,,,,"0","1","0",,,,"[PLC]@.TRIP"
+"D","@_SBP_S",,"F","D","*","F",,,,,,,,,,"0","1","0",,,,"[PLC]@.SBP_S"
+"D","@_XMTR_FAULT",,"F","D","*","F",,,,,,,,,,"0","1","0",,,,"[PLC]@.XMTR_FAULT"
